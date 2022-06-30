@@ -1,0 +1,48 @@
+1> 
+ Crypto:
+ Vinegar gives sour taste.
+ PjpdhGtyYhbNxXeil{QKWptra} 
+ key : .. ..-. . ... -  
+ decoded key : IFEST
+ decoded ans using vegenere cipher: Flag = {MSDhoni}
+
+2> 
+ Steganography:
+ image bug bounty poster.
+ Using https://hexed.it/
+ Flag = {crack-it}
+ 
+3>  
+Steganography
+“Can you see me?”
+
+Flag = {Congrats_you_done_it}
+
+Solution:
+Figure 1: 
+The first clue is the text that is written in ‘color: white’ over a white background and 
+is therefore invisible. 
+Selecting the whole page (CTRL+A) would reveal the hidden clue.
+
+So we need to access the file ‘password.gif’ at the following location:
+https://www.net-force.nl/challenge/level801/password.gif
+Notice that the image does not open in the browser. This is our first clue that it is not a GIF image as advertized. We download this file on our local machine and analyze the file using the Linux ‘file’ utility that reads Magic Numbers in the file to determine the file type. In our case, we notice that this file contains ASCII text, and so we use the ‘more’ command to print its content on the screen, which reveals the password [Figure 2].
+
+4> 
+https://drive.google.com/drive/folders/1Vim_VSinTFYoyXqJY5kCmg73B2JoD6Xl
+Hint: Behind the beauty
+Flag is hidden in style.css file
+Flag = {there_you_go}
+
+5>
+https://ompatel8901.github.io/CTF-neweasy1234/
+Inspect the website and you will get you flag
+Flag = {beat_the_time}
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+References:
+https://www.net-force.nl/challenges/
