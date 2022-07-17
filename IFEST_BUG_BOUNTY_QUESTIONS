@@ -1,7 +1,7 @@
 1> 
- Crypto:
+ Cryptography:
  Vinegar gives sour taste.
- PjpdhGtyYhbNxXeil{QKWptra} 
+ PjpdhGtyYhbNxXeil{QKWptra}  -  HelloYouGotItFlag{MSDhoni}
  key : .. ..-. . ... -  
  decoded key : IFEST
  decoded ans using vegenere cipher: Flag = {MSDhoni}
@@ -11,10 +11,10 @@
  image bug bounty poster.
  Using https://hexed.it/
  Flag = {crack-it}
- 
+
 3>  
 Steganography
-“Can you see me?”
+“Can you see me?” - index.html
 
 Flag = {Congrats_you_done_it}
 
@@ -24,14 +24,14 @@ The first clue is the text that is written in ‘color: white’ over a white ba
 is therefore invisible. 
 Selecting the whole page (CTRL+A) would reveal the hidden clue.
 
-So we need to access the file ‘password.gif’ at the following location:
-https://www.net-force.nl/challenge/level801/password.gif
-Notice that the image does not open in the browser. This is our first clue that it is not a GIF image as advertized. We download this file on our local machine and analyze the file using the Linux ‘file’ utility that reads Magic Numbers in the file to determine the file type. In our case, we notice that this file contains ASCII text, and so we use the ‘more’ command to print its content on the screen, which reveals the password [Figure 2].
+Then you got link for the .gif file but its not opening correctly.
+This is our first clue that it is not a GIF image as advertized. 
+Then download this file and opening it with notepad will reveal the flag.
 
 4> 
 https://drive.google.com/drive/folders/1Vim_VSinTFYoyXqJY5kCmg73B2JoD6Xl
 Hint: Behind the beauty
-Flag is hidden in style.css file
+Flag is hidden in solution-code/css/style.css file
 Flag = {there_you_go}
 
 5>
